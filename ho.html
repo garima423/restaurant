@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="cdn.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+  $("#g1").click(function(){
+    $("#g2").slideDown("slow");
+    $("#g2").hide(4000);
+  });
+});
+	</script>
+	<style type="text/css">
+		div{
+			text-align: center;
+			margin-top: 50px;
+		}
+		h1{
+			height: 25px;
+			width: 30px;
+			margin-left: 50%;
+			margin-top: 100px;
+		}
+		body {
+  background: url(eat1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+#g1, #g2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#g2 {
+  padding: 50px;
+  display: none;
+}
+
+
+</style>
+
+<script>
+function fun() {
+  
+  document.body.style.backgroundImage = "url('eat.jpg')";
+}
+function fun1() {
+  
+  document.body.style.backgroundImage = "url('eat1.jpg')";
+}
+function fun2() {
+  
+  document.body.style.backgroundImage = "url('drink.png')";
+}
+function fun3() {
+  
+  document.body.style.backgroundImage = "url('bo11.jpg')";
+}
+</script>
+</head>
+<body>
+	<div style="padding:10px;
+	margin-top: 0px;
+color:white;
+background-color:black;
+text-align:center">
+<h3>Planning a party this festive season? <button type="button" class="btn btn-link"><a href="book.html"><i>Book Now</i></a></button></h3>
+</div>
+<div id="he1">
+<h1 id="id1" onmouseover="fun()" onmouseout="fun1()"><i>EAT</i></h1>
+</div>
+<div>
+<h1 id="id2" onmouseover="fun2()" onmouseout="fun1()"><i>DRINK</i></h1>
+</div>
+<div>
+<h1 id="id3" onmouseover="fun3()" onmouseout="fun1()"><i>VISIT</i></h1>
+</div>
+
+
+</body>
+<div id="h1">
+<div id="g1">KNOW MORE...</div>
+<div id="g2">A place for great and good food, always warm and inviting, where the drinks and conversation flow.</div>
+<div>
+</html>

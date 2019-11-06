@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body{
+			background-color: black;
+		}
+		.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	</style>
+</head>
+<body>
+<div class="container-fluid">
+	<img id="id1" src="bday1.jpg" width="100%" height="800px">
+	<div class="centered"><h1 style="color: white; font-size: 50px; font-style: italic; letter-spacing: 3px;"><font color="white">WE CREATE, YOU ENJOY</font><h1></div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-3" style=" height: 800px;"></div>
+		<div class="col-6">
+		<form class="idl" name="myform" method="post">
+	<h1><font color="white">BOOKING DETAILS</font></h1>
+	<p><font color="white">Name:</font> </p><input type="text" size=65 name="name"> <br>
+	<p><font color="white">Telephone: </font></p><input type="text" size=65 name="telephone">  <br>
+	<p><font color="white">Date: </font></p>
+	<input type="date" size=65 name="date"></p>  <br>
+	<p><font color="white">Food Option: </font></p>
+	</font><input type="checkbox" name="option1" value="non veg"><font color="white"> Non-vegetarian</font><br>
+  <input type="checkbox" name="option2" value="veg"> <font color="white" checked> Vegetarian</font><br>
+  <input type="checkbox" name="option3" value="alcohol"><font color="white"> Alcohol</font><br>
+	<p><font color="white">Select your theme</font></p>
+	<select type="text" name="subject">
+		<option value="op"><font color="white">Choose theme</font></option>
+		<option><font color="white">Carnival Fun</font></option>
+		<option><font color="white">80s Bash</font></option>
+		<option><font color="white">Princess Celebration</font></option>
+		<option><font color="white">Sports Party</font></option>
+		<option><font color="white">Mermaid Merriment</font></option>
+	</select></p> <br><br>
+	<p><font color="white">Special Instruction:</font> <textarea cols="55" name="Comment"></textarea>
+	<p><input type="submit" value="submit" name="Submit">
+</form></div>
+		<div class="col-3"></div>
+		
+	</div>
+</div>
+</body>
+</html>
